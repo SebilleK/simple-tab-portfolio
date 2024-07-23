@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>My Portfolio</title>
+		<link rel="stylesheet" href="output.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet" />
+		<link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+	</head>
+	<body class="bg-blue-100 h-full xl:overflow-hidden font-lato my-10">
+		<div class="bg-white w-full h-full md:w-3/4 md:h-3/4 mx-auto rounded">
+			<header class="bg-gray-100 px-5 py-2 flex justify-between items-center gap-4">
+				<div class="flex flex-col gap-2 py-2">
+					<h1 class="text-3xl font-bold">[Your Name] Web Portfolio</h1>
+					<p class="bg-gray-200 px-3 py-1 rounded">[Your personal professional title]</p>
+				</div>
+
+				<nav class="flex flex-col">
+					<div class="flex gap-2 justify-end mb-5">
+						<div class="h-6 w-6 rounded-full bg-green-400"></div>
+						<div class="h-6 w-6 rounded-full bg-yellow-400"></div>
+						<div class="h-6 w-6 rounded-full bg-red-400"></div>
+					</div>
+				</nav>
+			</header>
+			<main>
+				<section class="bg-gray-200 flex pt-2 pl-5">
+					<ul class="flex gap-2">
+						<li>
+							<a href="#"><i class="bx bxl-linkedin bx-md hover:text-blue-600"></i></a>
+						</li>
+						<li>
+							<a href="#"><i class="bx bxl-github bx-md hover:text-gray-600"></i></a>
+						</li>
+						<li>
+							<a href="#"><i class="bx bxl-youtube bx-md hover:text-red-600"></i></a>
+						</li>
+					</ul>
+				</section>
+				<section class="bg-gray-100 p-5 my-6 flex flex-col gap-5">
+					<div class="flex gap-5 text-lg">
+						<div class="flex flex-col gap-5">
+							<h2 class="text-2xl font-bold">About Me</h2>
+
+							<p>
+								Hello, my name is [Your Name] and I'm a [Your personal professional title]. Welcome to my portfolio. You can find me on the socials above! I always like to connect with people, so
+								don't hesitate to contact me.
+							</p>
+
+							<h2 class="text-2xl font-bold">Tech Stack</h2>
+							<p>
+								<!-- I'm confortable with HTML5/CSS3 and Javascript/Typescript, as well as the React Framework and its libraries. I have experience with React and its ecosystem. I use Node.js and am also
+								familiar with PHP and the Laravel Framework. Currently I'm learning C# and .NET, as I'm interested in that stack. Other skills include Git, relational (MySQL, PostgreSQL) and
+								non-relational (MongoDB) databases. -->
+								Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis sint exercitationem, reprehenderit enim dicta saepe aspernatur harum aliquam rerum minus animi sapiente omnis
+								iusto repudiandae laborum sit, porro, obcaecati nobis voluptatum maxime consectetur? Sequi, at ducimus saepe quia natus fuga nesciunt itaque dicta est veniam rerum dolorum cumque atque
+								enim incidunt odio sit aliquid. Nemo adipisci voluptatem eaque qui autem.
+							</p>
+
+							<div class="flex gap-2 justify-center my-5">
+								<i class="bx bxl-javascript bx-lg"></i>
+								<i class="bx bxl-typescript bx-lg"></i>
+								<i class="bx bxl-react bx-lg"></i>
+								<i class="bx bxl-nodejs bx-lg"></i>
+								<i class="bx bxl-git bx-lg"></i>
+								<i class="bx bxl-postgresql bx-lg"></i>
+								<i class="bx bxl-mongodb bx-lg"></i>
+								<i class="bx bxl-sql bx-lg"></i>
+							</div>
+
+							<p>Thank you for your visit. You can check out some of my projects or download my resume below:</p>
+
+							<div>
+								<button id="projects-section-button" class="bg-green-400 hover:bg-yellow-400 hover:text-black text-white font-bold py-2 px-4 rounded">See Projects</button>
+
+								<button class="bg-red-400 hover:bg-yellow-400 hover:text-black text-white font-bold py-2 px-4 rounded"><a download href="cv-template.pdf">Download CV</a></button>
+							</div>
+						</div>
+
+						<img class="w-1/3 rounded invisible xl:visible" src="https://via.placeholder.com/400x500" alt="" />
+					</div>
+				</section>
+
+				<section id="projects-section" class="hidden bg-gray-100 h-full w-full fixed top-0 left-0 overflow-auto z-10">
+					<div class="flex flex-col gap-5 items-center pt-5 pb-20 xl:pt-20">
+						<h2 class="text-4xl font-bold">Projects</h2>
+
+						<p class="text-xl">Here are some of the projects I have worked on.</p>
+
+						<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+							<a href="">
+								<div class="max-w-sm rounded overflow-hidden shadow-lg bg-white hover:cursor-pointer hover:bg-green-200">
+									<img class="w-full" src="https://via.placeholder.com/400x200" alt="Project Image" />
+									<div class="px-6 py-4">
+										<div class="font-bold text-xl mb-2">Project Title</div>
+										<p class="text-gray-700 text-base">
+											Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum inventore expedita tempore error voluptatum nam dolorum nesciunt corrupti? Deserunt doloribus voluptatibus ducimus
+											quis accusamus maxime, consequuntur molestias!
+										</p>
+									</div>
+								</div>
+							</a>
+							<a href="">
+								<div class="max-w-sm rounded overflow-hidden shadow-lg bg-white hover:cursor-pointer hover:bg-green-200">
+									<img class="w-full" src="https://via.placeholder.com/400x200" alt="Project Image" />
+									<div class="px-6 py-4">
+										<div class="font-bold text-xl mb-2">Project Title</div>
+										<p class="text-gray-700 text-base">
+											Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum inventore expedita tempore error voluptatum nam dolorum nesciunt corrupti? Deserunt doloribus voluptatibus ducimus
+											quis accusamus maxime, consequuntur molestias!
+										</p>
+									</div>
+								</div>
+							</a>
+							<a href="">
+								<div class="max-w-sm rounded overflow-hidden shadow-lg bg-white hover:cursor-pointer hover:bg-green-200">
+									<img class="w-full" src="https://via.placeholder.com/400x200" alt="Project Image" />
+									<div class="px-6 py-4">
+										<div class="font-bold text-xl mb-2">Project Title</div>
+										<p class="text-gray-700 text-base">
+											Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum inventore expedita tempore error voluptatum nam dolorum nesciunt corrupti? Deserunt doloribus voluptatibus ducimus
+											quis accusamus maxime, consequuntur molestias!
+										</p>
+									</div>
+								</div>
+							</a>
+						</div>
+
+						<button id="go-back-button" class="bg-red-400 hover:bg-yellow-400 hover:text-black text-white font-bold py-4 px-8 rounded">Go Back</button>
+					</div>
+				</section>
+			</main>
+		</div>
+		<footer class="bg-white w-full py-4 fixed bottom-0">
+			<p class="text-center text-gray-500 text-xs">&copy; 2024 SebilleK</p>
+		</footer>
+	</body>
+	<script src="/main.js"></script>
+</html>
